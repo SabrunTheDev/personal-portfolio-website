@@ -4,7 +4,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import planeScene from "../assets/3d/plane.glb";
 
 // 3D Model from: https://sketchfab.com/3d-models/stylized-ww1-plane-c4edeb0e410f46e8a4db320879f0a1db
-export default function Plane({ isRotating, ...props }) {
+const Plane = ({ isRotating, ...props }) => {
   const ref = useRef();
   // Load the 3D model and its animations
   const { scene, animations } = useGLTF(planeScene);
@@ -28,6 +28,7 @@ export default function Plane({ isRotating, ...props }) {
       <primitive object={scene} />
     </mesh>
   );
-}
+};
 
 useGLTF.preload(planeScene);
+export default Plane;

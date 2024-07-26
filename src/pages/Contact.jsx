@@ -1,15 +1,17 @@
-import React, { Suspense, useRef, useState } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
-import Fox from "../models/Fox";
-import Plane from "../models/Plane";
+// import Fox from "../models/Fox";
+// import Bird from "../models/Bird";
+import { Bird, Fox, Plane } from "../models";
 
 const Contact = () => {
   const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [isLoading, setIsLoading] = useState(false);
   const [message, setMessage] = useState("");
+  const [currentAnimation, setCurrentAnimation] = useState("idle");
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -18,6 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setCurrentAnimation("hit");
 
     emailjs
       .send(
@@ -38,17 +41,23 @@ const Contact = () => {
         setForm({ name: "", email: "", message: "" }); // Reset form
         // TODO: Show success message
         // TODO: Hide an alert
+
+        setTimeout(() => {
+          setCurrentAnimation("idle");
+          setForm({ name: "", email: "", message: "" });
+        }, [5000]);
       })
       .catch((error) => {
         setIsLoading(false);
+        setCurrentAnimation("idle");
         setMessage("Failed to send message. Please try again.");
         console.log(error);
         // TODO: Show error message
       });
   };
 
-  const handleFocus = () => {};
-  const handleBlur = () => {};
+  const handleFocus = () => setCurrentAnimation("walk");
+  const handleBlur = () => setCurrentAnimation("idle");
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
@@ -122,7 +131,7 @@ const Contact = () => {
           }}
         >
           <directionalLight position={[0, 0, 1]} intensity={2.5} />
-          <ambientLight intensity={1} />
+          <ambientLight intensity={0.5} />
           <pointLight position={[5, 10, 0]} intensity={2} />
           <spotLight
             position={[10, 10, 10]}
@@ -132,10 +141,12 @@ const Contact = () => {
           />
           <Suspense fallback={<Loader />}>
             <Fox
-              position={[0.5, 0.35, 0]}
+              currentAnimation={currentAnimation}
+              position={[0.5, 0.5, 0]}
               rotation={[12.6, -0.6, 0]}
               scale={[0.5, 0.5, 0.5]}
             />
+            {/* <Bird /> */}
           </Suspense>
         </Canvas>
       </div>
