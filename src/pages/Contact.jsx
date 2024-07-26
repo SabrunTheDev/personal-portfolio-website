@@ -2,8 +2,6 @@ import React, { Suspense, useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
-// import Fox from "../models/Fox";
-// import Bird from "../models/Bird";
 import { Bird, Fox, Plane } from "../models";
 
 const Contact = () => {
@@ -60,7 +58,7 @@ const Contact = () => {
   const handleBlur = () => setCurrentAnimation("idle");
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container">
+    <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch</h1>
         <form
