@@ -140,7 +140,7 @@ const Contact = () => {
           <Suspense fallback={<Loader />}>
             <Fox
               currentAnimation={currentAnimation}
-              position={[0.5, 0.5, 0]}
+              position={[0.5, 0.35, 0.5]}
               rotation={[12.6, -0.6, 0]}
               scale={[0.5, 0.5, 0.5]}
             />
