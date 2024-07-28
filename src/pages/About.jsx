@@ -59,13 +59,21 @@ const About = () => {
                 key={experiences.company_name}
                 date={experiences.date}
                 icon={
-                  <div className="flex justify-center items-center w-full h-full">
-                    <img
-                      src={experiences.icon}
-                      alt={experiences.company_name}
-                      className="w-[70%] h-[70%] object-contain"
-                    />
-                  </div>
+                  <a
+                    key={experiences.name}
+                    href={experiences.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block-container w-40 h-20 no-underline"
+                  >
+                    <div className="flex justify-center items-center w-full h-full">
+                      <img
+                        src={experiences.icon}
+                        alt={experiences.company_name}
+                        className="w-[70%] h-[70%] object-contain"
+                      />
+                    </div>
+                  </a>
                 }
                 iconStyle={{ background: experiences.iconBg }}
                 contentStyle={{
@@ -79,6 +87,7 @@ const About = () => {
                   <h3 className="text-black text-xl font-poppins font-semibold">
                     {experiences.title}
                   </h3>
+
                   <p
                     className="text-black-500 font-medium font-base"
                     style={{ margin: 0 }}

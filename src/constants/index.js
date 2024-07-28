@@ -137,6 +137,7 @@ export const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Applied Agile methodologies with peers and mentors, resulting in a productivity increase of 50%",
     ],
+    link: "https://www.linkedin.com/school/perscholas",
   },
   {
     title: "Software Engineer",
@@ -145,11 +146,12 @@ export const experiences = [
     iconBg: "#fbc3bc",
     date: "Jan 2025 - Future",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
     ],
+    link: "https://www.linkedin.com/company/tesla-motors",
   },
   {
     title: "Software Engineer",
@@ -158,11 +160,12 @@ export const experiences = [
     iconBg: "#a2d2ff",
     date: "Jan 2026 - Future",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
+      "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
     ],
+    link: "https://www.linkedin.com/company/meta",
   },
 ];
 
