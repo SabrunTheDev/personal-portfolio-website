@@ -43,6 +43,7 @@ const Contact = () => {
         setTimeout(() => {
           setCurrentAnimation("idle");
           setForm({ name: "", email: "", message: "" });
+          setMessage("");
         }, [5000]);
       })
       .catch((error) => {

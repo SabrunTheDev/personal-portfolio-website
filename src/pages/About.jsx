@@ -122,7 +122,7 @@ const About = () => {
                     alt={social.name}
                     className="w-1/2 h-1/2 object-contain"
                   />
-                  <p className="font-poppins font-semibold" t>
+                  <p className="font-poppins font-semibold text-blue-500">
                     {social.name}
                   </p>
                 </div>
