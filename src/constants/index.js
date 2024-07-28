@@ -122,6 +122,7 @@ export const experiences = [
       "Incorporated live in-house AI tutoring and mentorship from seasoned software professionals to customize and elevate skills, fostering an interactive and personalized learning experience",
       "Participating in code reviews and providing constructive feedback to other developers",
     ],
+    link: "https://www.linkedin.com/company/headstarterai/",
   },
 
   {
