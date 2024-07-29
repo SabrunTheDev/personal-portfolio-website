@@ -12,7 +12,7 @@ This project is a web application built using React, ThreeJS, and TailwindCSS. I
 - **ThreeJS**: A library that makes 3D in the browser using WebGL.
 - **TailwindCSS**: A utility-first CSS framework for rapid UI development.
 
-## Page
+## Pages
 
 ### `Home.jsx`
 
