@@ -25,8 +25,7 @@ const App = () => {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', '${import.meta.env.VITE_APP_PUBLIC_GOOGLE_ANALYTICS}', {
-        page_path: window.location.pathname,
+      gtag('config', '${import.meta.env.VITE_APP_PUBLIC_GOOGLE_ANALYTICS}'
       });
     `;
     document.head.appendChild(inlineScript);

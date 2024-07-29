@@ -1,4 +1,10 @@
-import { meta, perscholas, headstarter_ai, tesla } from "../assets/images";
+import {
+  meta,
+  perscholas,
+  headstarter_ai,
+  tesla,
+  citadel,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -141,9 +147,9 @@ export const experiences = [
   },
   {
     title: "Software Engineer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
+    company_name: "Citadel",
+    icon: citadel,
+    iconBg: "#00008B",
     date: "Jan 2025 - Future",
     points: [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
@@ -151,7 +157,7 @@ export const experiences = [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
     ],
-    link: "https://www.linkedin.com/company/tesla-motors",
+    link: "https://www.linkedin.com/company/citadel-llc",
   },
   {
     title: "Software Engineer",
@@ -194,7 +200,7 @@ export const projects = [
     name: "Amazon Price Tracker",
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+    link: "",
   },
   {
     iconUrl: threads,
@@ -202,7 +208,7 @@ export const projects = [
     name: "Full Stack Threads Clone",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+    link: "",
   },
   {
     iconUrl: car,
@@ -210,7 +216,7 @@ export const projects = [
     name: "Car Finding App",
     description:
       "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+    link: "",
   },
   {
     iconUrl: snapgram,
@@ -218,7 +224,7 @@ export const projects = [
     name: "Full Stack Instagram Clone",
     description:
       "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+    link: "",
   },
   {
     iconUrl: estate,
@@ -226,7 +232,7 @@ export const projects = [
     name: "Real-Estate Application",
     description:
       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    link: "",
   },
   {
     iconUrl: summiz,
@@ -234,6 +240,6 @@ export const projects = [
     name: "AI Summarizer Application",
     description:
       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+    link: "",
   },
 ];

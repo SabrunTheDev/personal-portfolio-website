@@ -4,5 +4,6 @@ import perscholas from "./perscholas.png";
 import headstarter_ai from "./headstarter_ai.png";
 import tesla from "./tesla.png";
 import logo from "./logo.svg";
+import citadel from "./citadel.png";
 
-export { hero, meta, perscholas, headstarter_ai, tesla, logo };
+export { hero, meta, perscholas, headstarter_ai, tesla, logo, citadel };

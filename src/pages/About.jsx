@@ -70,7 +70,11 @@ const About = () => {
                       <img
                         src={experiences.icon}
                         alt={experiences.company_name}
-                        className="w-[70%] h-[70%] object-contain"
+                        className={
+                          experiences === "meta"
+                            ? "w-[70%] h-[70%] object-contain"
+                            : "w-[90%] h-[90%] object-contain"
+                        }
                       />
                     </div>
                   </a>
