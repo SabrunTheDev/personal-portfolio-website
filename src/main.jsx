@@ -25,9 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
             gtag('config', '${
               import.meta.env.VITE_APP_PUBLIC_GOOGLE_ANALYTICS
-            }', {
-              page_path: window.location.pathname,
-            });
+            }');
           `,
       }}
     />
