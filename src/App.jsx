@@ -21,6 +21,28 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      {/* Google Analytics setup */}
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${
+          import.meta.env.VITE_APP_PUBLIC_GOOGLE_ANALYTICS
+        }`}
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '${
+              import.meta.env.VITE_APP_PUBLIC_GOOGLE_ANALYTICS
+            }', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
     </main>
   );
 };
