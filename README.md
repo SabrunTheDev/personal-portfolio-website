@@ -1,6 +1,6 @@
 # Sabrun Sabri | Portfolio Website
 
-**Live Link:** <a href="https://sabrunsabri.com/" target="_blank">https://sabrunsabri.com/</a>
+**Live Link:** [https://sabrunsabri.com/](https://sabrunsabri.com/)
 
 ## Description
 
