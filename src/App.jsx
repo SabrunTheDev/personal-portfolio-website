@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   useEffect(() => {
@@ -39,6 +41,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      <Analytics />
+      <SpeedInsights />
     </main>
   );
 };
