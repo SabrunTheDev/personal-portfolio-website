@@ -149,7 +149,7 @@ export const experiences = [
     title: "Software Engineer",
     company_name: "Citadel",
     icon: citadel,
-    iconBg: "#00008B",
+    iconBg: "#143794",
     date: "Jan 2025 - Future",
     points: [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
