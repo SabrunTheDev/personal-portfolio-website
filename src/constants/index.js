@@ -30,9 +30,20 @@ import {
   tailwindcss,
   threads,
   typescript,
+  python,
 } from "../assets/icons";
 
 export const skills = [
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Language",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "Language",
+  },
   {
     imageUrl: css,
     name: "CSS",
@@ -58,11 +69,7 @@ export const skills = [
     name: "HTML",
     type: "Frontend",
   },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
+
   {
     imageUrl: mongodb,
     name: "MongoDB",
