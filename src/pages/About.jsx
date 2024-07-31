@@ -12,7 +12,7 @@ const About = () => {
     <section className="max-container">
       <h1 className="head-text">
         Hello, I'm{" "}
-        <span className="blue-gradient_text font-semibold drop-shadow">
+        <span className="sky-blue-purple-gradient_text font-semibold drop-shadow">
           Sabrun
         </span>
       </h1>
@@ -93,7 +93,7 @@ const About = () => {
                   </h3>
 
                   <p
-                    className="text-black-500 font-medium font-base"
+                    className="text-black-500 font-medium font-base "
                     style={{ margin: 0 }}
                   >
                     {experiences.company_name}

@@ -38,6 +38,62 @@ body:has(.card[data-color="green"]:hover) {
     @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
   }
 
+  .indigo-blue-gradient_text {
+    @apply bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent;
+  }
+
+  .purple-pink-gradient_text {
+    @apply bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent;
+  }
+
+  .teal-cyan-gradient_text {
+    @apply bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent;
+  }
+
+  .bg-purple-pink-gradient {
+    @apply bg-gradient-to-r from-purple-400 to-pink-500;
+  }
+
+  .bg-blue-gradient {
+    @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff];
+  }
+
+  .light-dark-blue-gradient_text {
+    @apply bg-gradient-to-r from-blue-300 to-blue-700 bg-clip-text text-transparent;
+  }
+
+  .cyan-indigo-gradient_text {
+    @apply bg-gradient-to-r from-cyan-400 to-indigo-500 bg-clip-text text-transparent;
+  }
+
+  .teal-blue-gradient_text {
+    @apply bg-gradient-to-r from-teal-400 to-blue-600 bg-clip-text text-transparent;
+  }
+
+  .sky-blue-gradient_text {
+    @apply bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent;
+  }
+
+  .blue-purple-gradient_text {
+    @apply bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent;
+  }
+
+  .indigo-violet-gradient_text {
+    @apply bg-gradient-to-r from-indigo-400 to-violet-600 bg-clip-text text-transparent;
+  }
+
+  .teal-purple-gradient_text {
+    @apply bg-gradient-to-r from-teal-500 to-purple-700 bg-clip-text text-transparent;
+  }
+
+  .sky-blue-purple-gradient_text {
+    @apply bg-gradient-to-r from-sky-500 to-purple-600 bg-clip-text text-transparent;
+  }
+
+  .bg-blue-gradient {
+    @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff];
+  }
+
   .input {
     @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card;
   }

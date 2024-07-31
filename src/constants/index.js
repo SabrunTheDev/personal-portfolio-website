@@ -31,22 +31,43 @@ import {
   threads,
   typescript,
   python,
+  java,
+  aws_dynamodb,
+  aws_cloud,
+  aws_lambda,
+  bootstrap,
 } from "../assets/icons";
 
 export const skills = [
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Language",
-  },
   {
     imageUrl: python,
     name: "Python",
     type: "Language",
   },
   {
-    imageUrl: css,
-    name: "CSS",
+    imageUrl: java,
+    name: "Java",
+    type: "Language",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Language",
+  },
+
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
     type: "Frontend",
   },
   {
@@ -54,6 +75,53 @@ export const skills = [
     name: "Express",
     type: "Backend",
   },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: aws_cloud,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: aws_dynamodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: aws_lambda,
+    name: "MongoDB",
+    type: "Database",
+  },
+
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+
   {
     imageUrl: git,
     name: "Git",
@@ -64,17 +132,7 @@ export const skills = [
     name: "GitHub",
     type: "Version Control",
   },
-  {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
 
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
   {
     imageUrl: motion,
     name: "Motion",
@@ -85,21 +143,7 @@ export const skills = [
     name: "Material-UI",
     type: "Frontend",
   },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
+
   {
     imageUrl: redux,
     name: "Redux",
@@ -108,16 +152,6 @@ export const skills = [
   {
     imageUrl: sass,
     name: "Sass",
-    type: "Frontend",
-  },
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: typescript,
-    name: "TypeScript",
     type: "Frontend",
   },
 ];
@@ -157,7 +191,7 @@ export const experiences = [
     company_name: "Citadel",
     icon: citadel,
     iconBg: "#143794",
-    date: "Jan 2025 - Future",
+    date: "Future - Future",
     points: [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
@@ -171,7 +205,7 @@ export const experiences = [
     company_name: "Meta",
     icon: meta,
     iconBg: "#a2d2ff",
-    date: "Jan 2026 - Future",
+    date: "Future - Future",
     points: [
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus risus ipsum scelerisque consequat, vestibulum et ultricies.",

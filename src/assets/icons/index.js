@@ -27,25 +27,35 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import python from "./python.svg";
+import java from "./java.svg";
+import aws_cloud from "./aws_cloud.webp";
+import aws_lambda from "./aws_lambda.svg";
+import aws_dynamodb from "./aws_dynamodb.svg";
+import bootstrap from "./bootstrap.svg";
 
 export {
-  css,
   python,
-  express,
-  git,
-  github,
-  html,
+  java,
   javascript,
-  mongodb,
-  motion,
-  mui,
+  typescript,
+  react,
+  express,
   nextjs,
   nodejs,
-  react,
+  mongodb,
+  aws_dynamodb,
+  aws_cloud,
+  aws_lambda,
+  css,
+  html,
+  bootstrap,
+  tailwindcss,
+  git,
+  github,
+  motion,
+  mui,
   redux,
   sass,
-  tailwindcss,
-  typescript,
   linkedin,
   twitter,
   car,
