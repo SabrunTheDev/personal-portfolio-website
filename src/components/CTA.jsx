@@ -6,7 +6,8 @@ const CTA = () => {
     <section className="cta">
       <p className="cta-text">
         <span className="light-dark-blue-gradient_text">
-          Want to collab? <br className="sm:block hidden" />
+          Want to collab?
+          <br className="sm:block hidden" />
           Let's build something together!
         </span>
       </p>

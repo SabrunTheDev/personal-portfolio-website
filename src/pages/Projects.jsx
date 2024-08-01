@@ -9,7 +9,7 @@ const Projects = () => {
     <section className="max-container">
       <h1 className="head-text">
         My{" "}
-        <span className="blue-gradient_text drop-shadow font-semibold">
+        <span className="sky-blue-purple-gradient_text drop-shadow font-semibold">
           Projects
         </span>
       </h1>
